@@ -346,6 +346,7 @@ img { max-width: 100%; display: block; }
 }
 .section__title { font-size: clamp(2rem, 4.6vw, 3.2rem); margin-bottom: .25em; }
 .section__sub { color: var(--text-muted); margin: 0; }
+.section__sub + .section__sub { margin-top: .7em; }
 
 /* ---------- Grid ---------- */
 .grid { display: grid; gap: 20px; }
